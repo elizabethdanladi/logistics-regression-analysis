@@ -64,7 +64,7 @@ Predicted Dissatisfied Predicted Satisfied
 Actually Dissatisfied 9,425 (TN) 2,250 (FP)
 Actually Satisfied 2,276 (FN) 12,025 (TP)
 Precision (84.24%): When the model flags a passenger as satisfied, it is correct 84%
-of the time — limiting false positives (passengers incorrectly labelled as satisfied).
+of the time - limiting false positives (passengers incorrectly labelled as satisfied).
 Recall (84.09%): The model correctly identifies 84% of all truly satisfied passengers —
 minimising missed opportunities for targeted service improvements.
 The balanced Precision/Recall confirms the model does not over-predict either class,
@@ -83,21 +83,21 @@ Rank Feature Coefficient Direction
 8 Leg room service +0.306 ↑ Increases satisfaction
 
 Business Recommendations:
-1. Invest in Inflight Entertainment — the single strongest positive predictor. Upgrading
+1. Invest in Inflight Entertainment - the single strongest positive predictor. Upgrading
 content and reliability could increase satisfaction probability by ~8–12% for long-haul
 passengers.
-2. Improve On-Board Service — staff training focused on attentiveness and consistency,
+2. Improve On-Board Service - staff training focused on attentiveness and consistency,
 especially in Economy class.
-3. Enhance Seat Comfort — retrofitting Economy seats with better legroom targets the
+3. Enhance Seat Comfort - retrofitting Economy seats with better legroom targets the
 most dissatisfied segment.
-4. Build Loyalty Programmes — disloyal customers are significantly more dissatisfied.
+4. Build Loyalty Programmes - disloyal customers are significantly more dissatisfied.
 Targeted re-engagement and rewards could close this gap.
-5. Personalise for Leisure Travellers — personal travel passengers are less satisfied than
+5. Personalise for Leisure Travellers - personal travel passengers are less satisfied than
 business travellers; family-friendly amenities and flexible check-in can improve their
 experience.
 
 Limitations & Next Steps:
-Logistic Regression assumes a linear decision boundary — ensemble models (Random
+Logistic Regression assumes a linear decision boundary - ensemble models (Random
 Forest, XGBoost) may improve accuracy beyond 82.5%
 Probability threshold (currently 0.5) could be tuned based on business cost trade-offs
 between FP and FN
